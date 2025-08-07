@@ -1,5 +1,14 @@
 # London Bicycles Analysis
 
+[![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)](https://www.python.org/downloads/)
+[![Apache Beam](https://img.shields.io/badge/Apache%20Beam-2.66.0-orange.svg)](https://beam.apache.org/)
+[![Google Cloud](https://img.shields.io/badge/Google%20Cloud-Dataflow-4285f4.svg)](https://cloud.google.com/dataflow)
+[![BigQuery](https://img.shields.io/badge/BigQuery-Public%20Dataset-4285f4.svg)](https://cloud.google.com/bigquery)
+[![Geopy](https://img.shields.io/badge/Geopy-2.4.1-green.svg)](https://geopy.readthedocs.io/)
+[![Tests](https://img.shields.io/badge/Tests-12%20Passing-brightgreen.svg)](#-testing)
+[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
 This project implements Apache Beam pipelines for analyzing London bicycle usage data using Google Cloud Dataflow and BigQuery. The project includes both **Easy Task** (ride counting) and **Hard Task** (distance calculations) implementations.
 
 ## 🎯 Challenge Overview
