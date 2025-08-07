@@ -60,7 +60,8 @@ gsutil mb gs://$BUCKET_NAME
 
 ```bash
 # Clone/download this repository
-cd ml6-data-engineer-test
+git clone https://github.com/diabahmed/london-bicycle-analysis.git
+cd london-bicycle-analysis
 
 # Create and activate virtual environment
 python3.11 -m venv .venv
@@ -110,7 +111,7 @@ gsutil cat gs://$BUCKET_NAME/output/results.txt
 ## 📁 Project Architecture
 
 ```
-ml6-data-engineer-test/
+london-bicycle-analysis/
 ├── 📄 main.py                          # 🚪 Entry point - start pipeline
 ├── 📄 config.py                        # ⚙️ Pipeline configuration
 ├── 📄 setup.py                         # 📦 Dependencies & package info
